@@ -1,0 +1,39 @@
+div.content{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    gap: 50px;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap; /* faz com que o conteiner realize uma quebra de linha caso o conteúdo não caíba */
+    overflow: hidden;
+}
+
+.photo{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo img{
+    object-fit: contain;
+    object-position: center;
+}
+
+.text-sobre{
+    width: 50%;
+}
+
+.text-sobre h1{
+    font-size: 4rem;
+    color: green;
+}
+
+.text-sobre p{
+    font-size: 2rem;
+    color: black;
+}
+
+.text-sobre a{
+    font-size: 1.5rem;
+    color: red;
+}

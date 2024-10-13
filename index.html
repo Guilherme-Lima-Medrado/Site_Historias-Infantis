@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórias Bíblicas Infantis</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="respon.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="site-header">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="">
+        </div>
+
+        <!--Menu de Navegação-->
+        <nav class="menu-nav">
+            <ul id="mylist">
+                <li><a href="#">Início</a></li>
+                <li><a href="stories.html">Histórias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#contact">Redes Sociais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim Cabeçalho-->
+
+    <!--Banner Principal-->
+    <section class="main-banner">
+        <h1>Bem-vindos às Histórias Bíblicas Infantis!</h1>
+        <p>Jesus, porém, disse: "Deixem vir a mim as crianças e não as impeçam, pois o Reino dos céus pertence aos que são semelhantes a elas".</p>
+        <a href="#stories" id="btn1">Leia Agora</a>
+    </section>
+
+    <!--Carrossel-->
+    <section class="slider">
+        <h1>Que tal Começar por uma Dessas?</h1>
+        <!--Conteúdo do carrossel-->
+        <div class="slider-content">
+            <!--inputs-->
+            <input type="radio" name="btn-radio" id="radio_01">
+            <input type="radio" name="btn-radio" id="radio_02">
+            <input type="radio" name="btn-radio" id="radio_03">
+            <input type="radio" name="btn-radio" id="radio_04">
+
+            <!--Imagens-->
+            <div class="slide-box first">
+                <h1>A Criação</h1>
+                <a href="acriacao.html">
+                    <img src="imgs/img_01.png" alt="A Criação">
+                </a>
+            </div>
+
+            <div class="slide-box">
+                <h1>O Dilúvio</h1>
+                <a href="oDiluvio.html">
+                    <img src="imgs/img_02.png" alt="O Dilúvio">
+                </a>
+            </div>
+
+            <div class="slide-box">
+                <h1>A Queda do Homem</h1>
+                <a href="aQuedaDoHomem.html">
+                    <img src="imgs/img_03.png" alt="A Queda do Homem">
+                </a>
+            </div>
+
+            <div class="slide-box">
+                <h1>Deus Escolheu Abraão</h1>
+                <a href="deusEscolheAbraao.html">
+                    <img src="imgs/img_04.png" alt="Deus Escolheu Abraão">
+                </a>
+            </div>
+
+            <!--Botões para a navegação automática-->
+            <div class="nav-auto">
+                <div class="auto-btn_01"></div>
+                <div class="auto-btn_02"></div>
+                <div class="auto-btn_03"></div>
+                <div class="auto-btn_04"></div>
+            </div>
+
+            <!--Botões para a navegação manual-->
+            <div class="nav-manual">
+                <label for="radio_01" class="manual-btn"></label>
+                <label for="radio_02" class="manual-btn"></label>
+                <label for="radio_03" class="manual-btn"></label>
+                <label for="radio_04" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    <!--Fim Carrossel-->
+
+    <!--Histórias-->
+    <section class="story-section" id="stories">
+        <h1>Nossas Histórias</h1>
+
+        <!--Cada história-->
+        <div class="story-grid">
+            <div class="story-card" id="card1">
+                <h2>Ana Pede um Filho ao Senhor</h2>
+                <p>Referência Bíblica: 1 Samuel 1:1-17</p>
+                <a href="anaPede.html" class="btn2">Ler Mais</a>
+            </div>
+
+            <div class="story-card" id="card2">
+                <h2>O Nascimento de Samuel</h2>
+                <p>Referência Bíblica: 1 Samuel 1:18-27</p>
+                <a href="oNascimento.html" class="btn2">Ler Mais</a>
+            </div>
+
+            <div class="story-card" id="card3">
+                <h2>Deus chama Samuel</h2>
+                <p>Referência Bíblica: 1 Samuel 3</p>
+                <a href="deusChamaSamuel.html" class="btn2">Ler Mais</a>
+            </div>
+
+            <div class="story-card" id="card4">
+                <h2>Davi e Golias</h2>
+                <p>Referência Bíblica: 1 Samuel 17:1-51</p>
+                <a href="daviEGolias.html" class="btn2">Ler Mais</a>
+            </div>
+
+            <div class="story-card" id="card5">
+                <h2>Daniel na Cova dos Leões</h2>
+                <p>Texto base: Daniel 6:1-25</p>
+                <a href="danielNaCova.html" class="btn2">Ler Mais</a>
+            </div>
+
+            <div class="story-card" id="card6">
+                <h2>Um Anjo Traz Boas Notícias</h2>
+                <p>Referência Bíblica: Lucas 1:26-38</p>
+                <a href="umAnjo.html" class="btn2">Ler Mais</a>
+            </div>
+        </div>
+    </section>
+    <!--Fim Histórias-->
+
+    <!--Banner secundário-->
+    <section class="banner-secundary">
+        <h1>Não é o Que Procura?</h1>
+        <p>Então Clique em "Ver Mais" e Tenha Acesso a Todas as Histórias Disponibilizadas pelo Site!</p>
+        <a href="stories.html" id="btn3">Ver Mais</a>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="site-footer" id="contact">
+        <p>&copy; 2024 Histórias Bíblicas Infantis</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/CCB.NEWS.BRASIL/?locale=pt_BR" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/ccbtemplos/" target="_blank">Instagram</a>
+            <a href="https://congregacaocristanobrasil.org.br/" target="_blank">Site Oficial CCB</a>
+        </div>
+    </footer>
+    <!--Fim rodapé-->   
+</body>
+</html>

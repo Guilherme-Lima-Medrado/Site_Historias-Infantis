@@ -1,0 +1,656 @@
+/*---Adaptando para outros dispositivos - home---*/
+
+/*---Dispositivos pequenos---*/
+@media(max-width: 396px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 8px;
+    } 
+
+    /* Seção de histórias */
+    .story-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .story-card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .story-card:last-child{
+        margin-bottom: 50px;
+    }
+
+    .story-section h1{
+        font-size: 1.8rem;
+    }
+
+    /* Cabeçalho */
+    header.site-header{
+        display: block;
+        text-align: center;
+    }
+
+    header.site-header .logo img{
+        max-width: 30px;
+        right: 10px;
+    }
+
+    header.site-header .menu-nav ul li{
+        margin-right: 30px;
+        position: relative;
+        left: 13px;
+    }
+
+    header.site-header .menu-nav ul li a{
+        font-size: 1.4rem;
+    }
+
+    /* Banner principal */
+    section.main-banner{
+        background-image: url('imgs/banner_criança-mobile.png');
+        background-size: cover;
+        padding: 60px;
+        overflow: hidden;
+    }
+
+    section.main-banner h1{
+        font-size: 3rem;
+    }
+
+    section.main-banner p{
+        font-size: 1.56rem;
+    }
+
+    section.main-banner #btn1{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 20px 20px;
+    }
+
+    /* Banner secundário */
+    section.banner-secundary{
+        background-image: url('imgs/Banner_menino-mobile.png');
+        background-size: cover;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    section.banner-secundary h1{
+        font-size: 3rem;
+    }
+
+    section.banner-secundary p{
+        font-size: 1.56rem;
+    }
+
+    section.banner-secundary #btn3{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 10px 20px;
+    }
+
+    /* Slider */
+    section.slider > h1{
+        font-size: 1.8rem
+    }
+
+    .nav-manual, .nav-auto{
+        margin-top: 55%;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 15px;
+    }
+}
+/* -------------------- */
+
+@media(min-width: 397px) and (max-width: 620px){
+
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 10px;
+    } 
+
+    /* Seção de histórias */
+    .story-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .story-card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .story-card:last-child{
+        margin-bottom: 50px;
+    }
+
+    .story-section h1{
+        font-size: 1.8rem;
+    }
+
+    /* Cabeçalho */
+    header.site-header{
+        display: block;
+        text-align: center;
+    }
+
+    header.site-header .logo img{
+        max-width: 30px;
+        right: 10px;
+    }
+
+    header.site-header .menu-nav ul li{
+        margin-right: 30px;
+        position: relative;
+        left: 13px;
+    }
+
+    header.site-header .menu-nav ul li a{
+        font-size: 1.4rem;
+    }
+
+    /* Banner principal */
+    section.main-banner{
+        background-image: url('imgs/banner_criança-mobile.png');
+        background-size: cover;
+        padding: 60px;
+        overflow: hidden;
+    }
+
+    section.main-banner h1{
+        font-size: 3rem;
+    }
+
+    section.main-banner p{
+        font-size: 1.56rem;
+    }
+
+    section.main-banner #btn1{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 20px 20px;
+    }
+
+    /* Banner secundário */
+    section.banner-secundary{
+        background-image: url('imgs/Banner_menino-mobile.png');
+        background-size: cover;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    section.banner-secundary h1{
+        font-size: 3rem;
+    }
+
+    section.banner-secundary p{
+        font-size: 1.56rem;
+    }
+
+    section.banner-secundary #btn3{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 10px 20px;
+    }
+
+    /* Slider */
+    section.slider > h1{
+        font-size: 1.8rem
+    }
+
+    .nav-manual, .nav-auto{
+        margin-top: 55%;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 15px;
+    }
+}
+/* ----------------- */
+
+/* Dispositivos médios */
+@media(min-width: 621px) and (max-width: 768px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 12px;
+    } 
+
+    /* Seção de histórias */
+    .story-grid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .story-card{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .story-section h1{
+        font-size: 1.8rem;
+    }
+
+    /* Cabeçalho */
+    header.site-header{
+        display: block;
+        text-align: center;
+    }
+
+    header.site-header .logo img{
+        max-width: 30px;
+        right: 10px;
+    }
+
+    header.site-header .menu-nav ul li{
+        margin-right: 30px;
+        position: relative;
+        left: 13px;
+    }
+
+    header.site-header .menu-nav ul li a{
+        font-size: 1.4rem;
+    }
+
+    /* Banner principal */
+    section.main-banner{
+        background-image: url('imgs/banner_criança-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    section.main-banner h1{
+        font-size: 3rem;
+    }
+
+    section.main-banner p{
+        font-size: 1.56rem;
+    }
+
+    section.main-banner #btn1{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 20px 20px;
+    }
+
+    /* Banner secundário */
+    section.banner-secundary{
+        background-image: url('imgs/Banner_menino-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    section.banner-secundary h1{
+        font-size: 3rem;
+    }
+
+    section.banner-secundary p{
+        font-size: 1.56rem;
+    }
+
+    section.banner-secundary #btn3{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 10px 20px;
+    }
+
+    /* Slider */
+    section.slider > h1{
+        font-size: 1.8rem
+    }
+
+    .nav-manual, .nav-auto{
+        margin-top: 55%;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 15px;
+    }
+}
+/* -------------------- */
+
+@media(min-width: 769px) and (max-width: 1100px){
+
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 13px;
+    } 
+
+    /* Seção de histórias */
+    .story-grid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .story-card{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .story-section h1{
+        font-size: 1.8rem;
+    }
+
+    /* Cabeçalho */
+    header.site-header{
+        display: block;
+        text-align: center;
+    }
+
+    header.site-header .logo img{
+        max-width: 30px;
+        right: 10px;
+    }
+
+    header.site-header .menu-nav ul li{
+        margin-right: 30px;
+        position: relative;
+        left: 13px;
+    }
+
+    header.site-header .menu-nav ul li a{
+        font-size: 1.56rem;
+    }
+
+    /* Banner principal */
+    section.main-banner{
+        background-image: url('imgs/banner_criança-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    section.main-banner h1{
+        font-size: 3rem;
+    }
+
+    section.main-banner p{
+        font-size: 1.56rem;
+    }
+
+    section.main-banner #btn1{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 20px 20px;
+    }
+
+    /* Banner secundário */
+    section.banner-secundary{
+        background-image: url('imgs/Banner_menino-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    section.banner-secundary h1{
+        font-size: 3rem;
+    }
+
+    section.banner-secundary p{
+        font-size: 1.56rem;
+    }
+
+    section.banner-secundary #btn3{
+        top: 20px;
+        font-size: 1.56rem;
+        padding: 10px 20px;
+    }
+
+    /* Slider */
+    section.slider > h1{
+        font-size: 1.8rem
+    }
+
+    .nav-manual, .nav-auto{
+        margin-top: 50%;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 20px;
+    }
+}
+/* -------------------- */
+
+
+
+/*---Adaptando para outros dispositivos - Stories---*/
+
+/*---Dispositivos pequenos---*/
+@media(max-width: 320px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 7px;
+    } 
+
+    /* Banner principal */
+    section.banner-ourStories{
+        background-image: url('imgs/banner-ourStories-mobile.png');
+        background-size: cover;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .banner-ourStories h1{
+        font-size: 2rem;
+    }
+
+    .banner-ourStories p{
+        font-size: 1.56rem;
+    }
+
+    /* Seção de Histórias */
+    .stories-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .stories-card h2{
+        font-size: 2.5rem;
+    }
+
+    .stories-card p{
+        font-size: 1.8rem;
+    }
+
+    .stories-card .btn-lerMais{
+        font-size: 1.8rem;
+    }
+}
+/* ------------------------ */
+
+@media(min-width: 321px) and (max-width: 396px){
+
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 8px;
+    } 
+
+    /* Banner principal */
+    section.banner-ourStories{
+        background-image: url('imgs/banner-ourStories-mobile.png');
+        background-size: cover;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .banner-ourStories h1{
+        font-size: 2rem;
+    }
+
+    .banner-ourStories p{
+        font-size: 1.56rem;
+    }
+
+    /* Seção de Histórias */
+    .stories-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .stories-card h2{
+        font-size: 2.5rem;
+    }
+
+    .stories-card p{
+        font-size: 1.8rem;
+    }
+
+    .stories-card .btn-lerMais{
+        font-size: 1.8rem;
+    }
+}
+/* --------------------- */
+
+@media(min-width: 397px) and (max-width: 620px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 10px;
+    } 
+
+    /* Banner principal */
+    section.banner-ourStories{
+        background-image: url('imgs/banner-ourStories-mobile.png');
+        background-size: cover;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .banner-ourStories h1{
+        font-size: 2rem;
+    }
+
+    .banner-ourStories p{
+        font-size: 1.56rem;
+    }
+
+    /* Seção de Histórias */
+    .stories-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .stories-card h2{
+        font-size: 2.5rem;
+    }
+
+    .stories-card p{
+        font-size: 1.8rem;
+    }
+
+    .stories-card .btn-lerMais{
+        font-size: 1.8rem;
+    }
+}
+/* --------------------- */
+
+@media(min-width: 621px) and (max-width: 768px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 12px;
+    } 
+
+    /* Banner principal */
+    section.banner-ourStories{
+        background-image: url('imgs/banner-ourStories-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    .banner-ourStories h1{
+        font-size: 2rem;
+    }
+
+    .banner-ourStories p{
+        font-size: 1.56rem;
+    }
+
+    /* Seção de Histórias */
+    .stories-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .stories-card h2{
+        font-size: 2.5rem;
+    }
+
+    .stories-card p{
+        font-size: 1.8rem;
+    }
+
+    .stories-card .btn-lerMais{
+        font-size: 1.8rem;
+    }
+}
+/* ------------------------ */
+
+@media(min-width: 769px) and (max-width: 1100px){
+    /* Tamanho da fonte padrão */
+    html{
+        font-size: 13px;
+    } 
+
+    /* Banner principal */
+    section.banner-ourStories{
+        background-image: url('imgs/banner-ourStories-mobile.png');
+        background-size: cover;
+        padding: 150px;
+        overflow: hidden;
+    }
+
+    .banner-ourStories h1{
+        font-size: 2rem;
+    }
+
+    .banner-ourStories p{
+        font-size: 1.56rem;
+    }
+
+    /* Seção de Histórias */
+    .stories-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .stories-card h2{
+        font-size: 2.5rem;
+    }
+
+    .stories-card p{
+        font-size: 1.8rem;
+    }
+
+    .stories-card .btn-lerMais{
+        font-size: 1.8rem;
+    }
+}
+/* ----------------------- */
+
+/* --------------------------------- */
+
+
+
+/*---Adaptando para outros dispositivos - Sobre---*/
+
+/*---Dispositivos pequenos---*/
+
+/* ----------------------- */
+@media(max-width: 320px){
+    .photo img{
+        height: 30vh;
+    }
+}
+/* ------------------------ */
+
+@media(min-width: 320px) and (max-width: 396px){
+    .photo img{
+        height: 30vh;
+    }
+}
+/* ------------------------ */
+
+@media(min-width: 397px) and (max-width: 620px){
+    .photo img{
+        height: 30vh;
+    }
+}
+/* ------------------------ */
+
+/* --------------------------------- */
